@@ -14,7 +14,7 @@
 		045B6D9A29DD5A010034C63A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045B6D9829DD5A010034C63A /* LaunchScreen.storyboard */; };
 		045B6DF029DD5E040034C63A /* alarm_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 045B6DEF29DD5E040034C63A /* alarm_sound.mp3 */; };
 		045B6DF329DD654B0034C63A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 045B6DF229DD654B0034C63A /* SnapKit */; };
-		045B6DF629DD6AA70034C63A /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045B6DF529DD6AA70034C63A /* Interface.swift */; };
+		0493E10029E2B3E3005E1403 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493E0FF29E2B3E3005E1403 /* ProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		045B6D9929DD5A010034C63A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		045B6D9B29DD5A010034C63A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		045B6DEF29DD5E040034C63A /* alarm_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = alarm_sound.mp3; sourceTree = "<group>"; };
-		045B6DF529DD6AA70034C63A /* Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
+		0493E0FF29E2B3E3005E1403 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				045B6DF429DD6A0B0034C63A /* SupportFiles */,
 				045B6DA129DD5B7E0034C63A /* App */,
 				045B6D9129DD5A000034C63A /* ViewController.swift */,
-				045B6DF529DD6AA70034C63A /* Interface.swift */,
+				0493E0FF29E2B3E3005E1403 /* ProgressView.swift */,
 			);
 			path = EggTimer;
 			sourceTree = "<group>";
@@ -166,9 +166,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				045B6D9229DD5A000034C63A /* ViewController.swift in Sources */,
+				0493E10029E2B3E3005E1403 /* ProgressView.swift in Sources */,
 				045B6D8E29DD5A000034C63A /* AppDelegate.swift in Sources */,
 				045B6D9029DD5A000034C63A /* SceneDelegate.swift in Sources */,
-				045B6DF629DD6AA70034C63A /* Interface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
