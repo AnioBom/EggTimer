@@ -1,5 +1,4 @@
-# EggTimer #
-## Animated egg timer ##
+# Animated egg timer #
 
 A simple application that will help you cook eggs how  you like
 
